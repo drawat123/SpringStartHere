@@ -14,6 +14,6 @@ public class Main {
         var s2 = c.getBean(UserService.class);
         boolean b1 = cs1 == cs2;
         boolean b2 = cs1.getCommentRepository() == s2.getCommentRepository();
-        System.out.println(b1 + ", " + b2);
+        System.out.println(b1 + " " + b2);
     }
 }
