@@ -1,0 +1,40 @@
+//////////////////////////////////////////////////////////////////////////////
+CHAPTER 1:
+
+1. An application framework is a set of common software functionalities that provides a foundational structure for developing an application. A framework acts as the skeletal support to build an application.
+
+2. Spring is not just a framework. We often refer to Spring as “Spring framework” to indicate the core functionalities, but Spring offers an entire ecosystem formed of many projects used in application development. Each project is dedicated to a specific domain, and when implementing an app, you might use more of these projects to implement the functionality you desire. The projects of the Spring ecosystem we’ll use in this book are as follows:
+    – Spring Core, which builds the foundation of Spring and provides features like the context, aspects, and basic data access.
+    – Spring Data, which provides a high-level, comfortable-to-use set of tools to implement the persistence layer of your apps. You’ll find how easy it is to use Spring Data to work with both SQL and NoSQL databases.
+    – Spring Boot, which is a project of the Spring ecosystem that helps you apply a “convention-over-configuration” approach.
+//////////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////////////
+CHAPTER 2:
+
+1. Imagine the spring context as a place in the memory of your app in which we add all the object instances("beans") that we want the framework to manage. By default, Spring doesn’t know any of the objects you define in your application. To enable Spring to see your objects, you need to add them to the context.
+
+2. Maven is a build tool. A build tool is software we use to build apps more easily. You configure a build tool to do the tasks that are part of building the app instead of manually doing them. Some examples of tasks that are often part of building the app are as follows:
+    . Downloading the dependencies needed by your app
+    . Running tests
+    . Validating that the syntax follows rules that you define
+    . Checking for security vulnerabilities
+    . Compiling the app
+
+3. For a Maven project you can also specify the following:
+     A group ID, which we use to group multiple related projects
+     An artifact ID, which is the name of the current application
+     A version, which is an identifier of the current implementation state
+
+4. The pom.xml file, where you write the configurations of your Maven project, like adding new dependencies.
+
+5. You can add beans in the context in the following ways:
+     Using the @Bean annotation
+     Using stereotype annotations
+     Programmatically
+
+6. A configuration class is a special class in Spring applications that we use to instruct Spring to do specific actions. For example, we can tell Spring to create beans or to enable certain functionalities.
+//////////////////////////////////////////////////////////////////////////////
+
+
